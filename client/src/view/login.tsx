@@ -61,7 +61,7 @@ export default function Login() {
         <button type="submit">Log In</button>
 
         <p className="redirect-text">
-         <GoogleOAuthProvider clientId="253485767952-bdiclqp871a0djq9n4hthj2idl7m9l6a.apps.googleusercontent.com">
+         <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_CLIENT_ID}>
             <Loginwithgoogle />
          </GoogleOAuthProvider>
         </p>
