@@ -1,5 +1,4 @@
 import React from 'react';
-import "./login.css"
 
 const Home = () => {
   return (
