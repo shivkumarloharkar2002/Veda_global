@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dynalight&family=Faustina:ital,wght@0,300..800;1,300..800&family=Lobster&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Veda Global</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">Veda Global</h1>
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#products">Products</a></li>
+        <li><a class="nav-link" href="#team">Our Team</a></li>
+        <li><a class="nav-link" href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <div class="spacer"></div>
+
+        <div class="container">
+          <div class="stacked-cards">
+            <div id="home" class="card">
+              <video autoplay loop muted playsinline class="background-video">
+                <source src="/images/bgvideo.mp4" type="video/mp4" />
+                <!-- Optionally add a WebM/OGG source for compatibility -->
+                Your browser does not support the video tag.
+              </video>
+              <div class="overlay-content">
+                <!-- Overlay content here, like heading/button/etc. -->
+                <h1 class="site-title">Veda Global</h1>
+                <p class="site-description">
+                  At Veda Global, we deliver quality you can trust and freshness
+                  you can truly taste in every spice and honey we export
+                </p>
+                <span class="hero-cta">
+                  <button class="cta-primary">Get a quote</button>
+                  <button class="cta-secondary">Contact us</button>
+                </span>
+              </div>
+            </div>
+            <div id="about" class="card">
+              <h1>About Us</h1>
+
+              <div class="about-content">
+                <div class="about-text">
+                  <h2>About Veda Global</h2>
+                  <p>
+                    Veda Global, founded in 2024 in India under Dr. Shailendra
+                    Patankar, is an exporter of premium natural products
+                    specializing in multiple grades of cardamom, diverse honey
+                    varieties, and red chilli types—offering customizable,
+                    globally compliant packaging with a focus on quality,
+                    honesty, and trust.
+                  </p>
+                </div>
+                <div class="about-image">
+                  <img src="/images/honey.jpg" alt="About Veda Global" />
+                </div>
+              </div>
+            </div>
+            <div id="products" class="card">
+              <div class="card-group">
+                <div class="product-card">
+                  <div class="card-content">
+                    <h2>Cardamom</h2>
+                    <p>Description for Cardamom.</p>
+                  </div>
+                </div>
+                <div id="p2" class="product-card">
+                  <div class="card-content">
+                    <h2>Honey</h2>
+                    <p>Description for Honey.</p>
+                  </div>
+                </div>
+                <div id="p3" class="product-card">
+                  <div class="card-content">
+                    <h2>Chilli</h2>
+                    <p>Description for Chilli.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="team" class="card">
+              <h1>Our Team</h1>
+            </div>
+            <div id="contact" class="card">
+              <h1>Contact Us</h1>
+            </div>
+            <div id="products" class="card"></div>
+            <div id="team" class="card"></div>
+            <div id="contact" class="card"></div>
+          </div>
+        </div>
+        <!-- <div class="spacer"></div> -->
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
